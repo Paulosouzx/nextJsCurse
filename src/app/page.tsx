@@ -1,3 +1,20 @@
-export default function Home(){
-    return <h1>Hello!</h1>
+import Link from "next/link"
+
+export default function Home() {
+    return (
+        <>
+            <h1>Welcome home</h1>
+            <Link
+                href="/products"
+                style={{
+                    padding: "10px",
+                    backgroundColor: 'blue',
+                    borderRadius: "8px",
+                    color: "white"
+                }}
+            >
+                Products
+            </Link>
+        </>
+    )
 }
