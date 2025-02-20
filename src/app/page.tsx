@@ -15,6 +15,7 @@ export default function Home() {
             >
                 Products
             </Link>
+            <Link href="/articles/123?lang=en">Another Language</Link>
         </>
     )
 }
