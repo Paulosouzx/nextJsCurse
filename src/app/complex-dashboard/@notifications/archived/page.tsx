@@ -1,12 +1,12 @@
 import { Card } from "@/app/components/card";
 import Link from "next/link";
 
-export default function Notifications() {
+export default function ArchivedNotifications() {
     return (
         <Card>
-            <div>Notification</div>
+            <div>Archived Notification</div>
             <div>
-                <Link href="/complex-dashboard/archived">Archived</Link>
+                <Link href="/complex-dashboard/">Default</Link>
             </div>
         </Card>
     );
