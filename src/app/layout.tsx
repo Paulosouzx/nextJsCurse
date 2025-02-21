@@ -3,7 +3,7 @@ import { Metadata } from "next"
 export const metadata: Metadata = {
   title: {
     //for child routes that don't specify their own title
-    default: '' ,
+    default: '',
     //Add prefixes or sufixes on title, use %s
     template: '',
     absolute: '',

@@ -14,10 +14,11 @@ export default function NewsArticle({
         <div>
             <h1>News article {articlesId}</h1>
             <p>Reading in {lang}</p>
-            <div>
+            <div style={{ display: "flex", gap: '10px', fontWeight: "bold", textTransform: "uppercase", fontSize: "1px" }} >
                 <Link href={`/articles/${articlesId}?lang=en`}>English</Link>
                 <Link href={`/articles/${articlesId}?lang=es`}>Spanish</Link>
                 <Link href={`/articles/${articlesId}?lang=fr`}>French</Link>
+                <Link href={`/photo-feed`}>photo-feed</Link>
             </div>
         </div>
     );

@@ -1,4 +1,4 @@
-import { Card } from "@/app/components/card";
+import { Card } from "@/components/card";
 
 export default function UsersAnalytics() {
     return (
