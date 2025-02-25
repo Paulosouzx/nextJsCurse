@@ -11,7 +11,9 @@ type Album = {
   title: string;
 };
 
+
 async function getUserPosts(userId: string) {
+  await new Promise((resolve) => setTimeout(resolve, 3000));
   const res = await fetch(
     `https://jsonplaceholder.typicode.com/posts?userId=${userId}`
   );
@@ -19,6 +21,7 @@ async function getUserPosts(userId: string) {
 }
 
 async function getUserAlbums(userId: string) {
+  await new Promise((resolve) => setTimeout(resolve, 3000));
   const res = await fetch(
     `https://jsonplaceholder.typicode.com/albums?userId=${userId}`
   );
